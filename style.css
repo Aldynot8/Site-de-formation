@@ -1,0 +1,103 @@
+.col-6{
+    height: 20em;
+    width: 40em;
+    margin: 4em;
+    padding: 2em;
+    background-color: none;
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+.boutton{
+    height: 2em;
+    width: 5em;
+    background-color:lightblue;
+    border: 2em;
+    border-radius: 17%;
+}
+.title{
+    
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1em;
+    padding: 1em;
+}
+.images{
+    height: 25em;
+    width: 30em;
+    margin: 4em;
+    padding: 1em;
+    border-radius: 37px;
+}
+.x{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    margin: 1em;
+    text-align: justify;
+}
+.citations {
+    text-align: center;
+    margin: 1em;
+    padding: auto;
+    height: auto;
+    width: auto;
+    background-color:none;
+    font-size: 2em;
+}
+blockquote {
+    min-height: 5em;
+    padding   : 1em 4em;
+    font      : 1em/150% sans-serif;
+    position  : relative;
+    background-color: none;
+  }
+  
+  blockquote::before,
+  blockquote::after {
+    position: absolute;
+    height  : 3rem;
+    font    : 6rem/100% Georgia, "Times New Roman", Times, serif;
+  }
+  
+  blockquote::before {
+    content: '“';
+    top    : 0.3rem;
+    left   : 0.9rem;
+  }
+  
+  blockquote::after {
+    content: '”';
+    bottom : 0.3rem;
+    right  : 0.8rem;
+  }
+  
+blockquote i {
+    display   : block;
+    font-size : 0.8em;
+    margin-top: 1rem;
+   
+    text-align: right;
+  }
+.zone{
+    height: 5em;
+    width: 50em;
+    margin:1em;
+}
+.row{
+    background-color:none;
+    display: flex;
+}
+body{
+    background-color: none;
+}
+footer {
+    line-height: 1.5em;
+    display: block;
+    justify-content: left;
+    padding: 20px;
+    
+    height: auto;
+    background-color: blanchedalmond;
+background-size: 150em 10em;
+}
+footer img {
+    float: right;
+}
